@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Components/Navbar/__nav__.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./Components/UserAuth/Login.css">
+    <link rel="stylesheet" href="./Components/UserAuth/Signup.css">
+
+    <script src="https://unpkg.com/htmlincludejs"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;800&family=Days+One&display=swap');
+    </style>
+
+    <link rel="icon" href="./icons/w.png">
+
+    <title>Words</title>
+</head>
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+
+        <div id="index-div">
+            <div id="intro-div">
+                <center>
+                    <h1><span style="text-decoration:underline;">Learn</span> words,</h1>
+                    <h1><span style="text-decoration:underline;">post</span> words,</h1>
+                    <h1><span style="text-decoration:underline;">search</span> words — all for <span style="color:#37FF8B;" 
+                        id="free">free.</span></h1>
+                    <h3>Want to enhance your vocabulary and knowedlge of words? Create or search any words you like!</h3>
+                </center>
+            </div>
+
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            
+            <center id="intro-p">
+                <div id="intro-paragraph">
+                    <h2 id="fun-fact">Fun Fact:</h2>
+                    <h2>Here are the most spoken languages in the entire world:</h2>
+                </div>
+
+                <p>Statistics last updated on Oct. 22, 2022</p>
+            </center>
+
+            <div id="add-space"></div>
+
+            <center>
+                <div id="langs">
+                    <span>English</span>
+                    <span>Mandarin</span>
+                    <span>Hindi</span>
+                    <span>Spanish</span>
+                </div>
+            </center>
+
+            <br>
+
+            
+
+            <br/>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            
+
+            <center>
+                <div id="national-lang">
+                    <h1><span class="green">Search</span> for a country and 
+                        <span class="green">find </span>
+                        their official language</h1>
+                    <form action="http://34.201.77.116/FinalProject/officialLang" method="post">
+                        <div>
+                            <select id="country-box" class="operator" name="country"> 
+                                <option class="drop-option" value="">Select a Country...</option>
+                                <option class="drop-option" value="AF">Afghanistan</option>
+                                <option class="drop-option" value="DZ">Algeria</option>
+                                <option class="drop-option" value="AO">Angola</option>
+                                <option class="drop-option" value="AR">Argentina</option>
+                                <option class="drop-option" value="AU">Australia</option>
+                                <option class="drop-option" value="BD">Bangladesh</option>
+                                <option class="drop-option" value="BF">Burkina Faso</option>
+                                <option class="drop-option" value="BR">Brazil</option>
+                                <option class="drop-option" value="CA">Canada</option>
+                                <option class="drop-option" value="CD">DR Congo</option>
+                                <option class="drop-option" value="CI">Ivory Coast</option>
+                                <option class="drop-option" value="CM">Cameroon</option>
+                                <option class="drop-option" value="CN">China</option>
+                                <option class="drop-option" value="CO">Colombia</option>
+                                <option class="drop-option" value="DE">Germany</option>
+                                <option class="drop-option" value="EG">Egypt</option>
+                                <option class="drop-option" value="ES">Spain</option>
+                                <option class="drop-option" value="ET">Ethiopia</option>
+                                <option class="drop-option" value="FR">France</option>
+                                <option class="drop-option" value="GH">Ghana</option>
+                                <option class="drop-option" value="ID">Indonesia</option>
+                                <option class="drop-option" value="IN">India</option>
+                                <option class="drop-option" value="IQ">Iraq</option>
+                                <option class="drop-option" value="IR">Iran</option>
+                                <option class="drop-option" value="IT">Italy</option>
+                                <option class="drop-option" value="JP">Japan</option>
+                                <option class="drop-option" value="KE">Kenya</option>
+                                <option class="drop-option" value="KP">North Korea</option>
+                                <option class="drop-option" value="KR">South Korea</option>
+                                <option class="drop-option" value="MA">Morocco</option>
+                                <option class="drop-option" value="MG">Madagascar</option>
+                                <option class="drop-option" value="ML">Mali</option>
+                                <option class="drop-option" value="MM">Myanmar</option>
+                                <option class="drop-option" value="MX">Mexico</option>
+                                <option class="drop-option" value="MY">Malaysia</option>
+                                <option class="drop-option" value="MZ">Mozambique</option>
+                                <option class="drop-option" value="NE">Niger</option>
+                                <option class="drop-option" value="NG">Nigeria</option>
+                                <option class="drop-option" value="NP">Nepal</option>
+                                <option class="drop-option" value="PE">Peru</option>
+                                <option class="drop-option" value="PH">Philippines</option>
+                                <option class="drop-option" value="PK">Pakistan</option>
+                                <option class="drop-option" value="PL">Poland</option>
+                                <option class="drop-option" value="RU">Russia</option>
+                                <option class="drop-option" value="SA">Saudi Arabia</option>
+                                <option class="drop-option" value="ZA">South Africa</option>
+                                <option class="drop-option" value="SD">Sudan</option>
+                                <option class="drop-option" value="SY">Syria</option>
+                                <option class="drop-option" value="TH">Thailand</option>
+                                <option class="drop-option" value="TR">Turkey</option>
+                                <option class="drop-option" value="TW">Taiwan</option>
+                                <option class="drop-option" value="TZ">Tanzania</option>
+                                <option class="drop-option" value="GB">United Kingdom</option>
+                                <option class="drop-option" value="UA">Ukraine</option>
+                                <option class="drop-option" value="UG">Uganda</option>
+                                <option class="drop-option" value="US">United States</option>
+                                <option class="drop-option" value="UZ">Uzbekistan</option>
+                                <option class="drop-option" value="VE">Venezuela</option>
+                                <option class="drop-option" value="VN">Vietnam</option>
+                                <option class="drop-option" value="YE">Yemen</option>                                                      
+                            </select>
+                            <button id="national-button" type="submit">Lookup official lang</button>
+                        </div>
+                    </form>
+                    <p id="note">Note: These listed are only the top 60 most populated countries
+                    </p>
+                </div>
+            </center>
+
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+			<div id="add-space"></div>
+            
+
+        
+            
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <br/>
+        </div>
+
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("./Components/Navbar/__nav__.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+    </body>
+</html>
+
+
+<script src="index.js"></script>

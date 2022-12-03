@@ -1,0 +1,147 @@
+body {
+    background-color: #3f4447;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#index-div {
+    padding-top: 90px;
+    margin-left: 27vw;
+    margin-right: 10vw;
+}
+
+#card {
+    background-color: rgb(153, 153, 153);
+    padding: 100px;
+    padding-top: 0px;
+    float: left;
+    width: 42%;
+    height: 80%;
+    border-radius: 5px;
+    padding-bottom: 0px;
+}
+
+#side-profile {
+    background-color: rgb(153, 153, 153);    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: right;
+    overflow-x: hidden;
+    width: 26%;
+    height: 80%;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: sticky;
+}
+
+#inside-side {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    background-image: url('../../icons/tree.jpg');
+    background-size: cover;
+}
+
+#inside-side p {
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    background-color: red;
+}
+
+#word, #desc, #language {
+    float: left;
+    color: #262a2b;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#word {
+    font-family: 'Days One', sans-serif;
+    float: left;
+    margin-left: -60px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#desc {
+    margin-top: 20px;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: #fff;
+    outline: none;
+    margin-bottom: 15px;
+    margin-left: -60px;
+}
+
+#language p {
+    background-color: #37FF8B;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: -60px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: smaller;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 7px;
+    padding-left: 3px;
+}
+
+#row {
+    color: #262a2b;
+    font-family: 'Catamaran', sans-serif;
+    margin-left: -60px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+#row a {
+    padding: 8px;
+    text-decoration: none;
+    color: #262a2b;
+}
+
+#row a:hover {
+
+    background-color: rgb(122, 122, 122);
+}
+
+#card {
+    display: grid;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+#card:hover {
+    border: 2px solid #fff;
+}
+
+#add-space {
+    padding-top: 70px;
+}
+
+#username {
+    margin: 0;
+    padding: 0;
+    float: right;
+    background-color: #37FF8B;
+    padding-left: 5px;
+    padding-right: 5px;
+}

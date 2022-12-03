@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post words</title>
+    <link rel="stylesheet" href="post.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;800&family=Days+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="../Navbar/__nav__.css">
+    <link rel="icon" href="../../icons/w.png">
+</head>
+    <body>
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+
+        
+        <div id="index-div">
+
+            <div id="side-profile">
+                <center>
+                    <div id="inside-side">
+                        <p>Happy Holidays to you!</p>
+                    </div>
+                </center>
+            </div>
+            <h2 id="title-post">Create your word</h2>
+
+            
+            <div>
+                <div id="card">
+                    <form action="http://34.201.77.116/FinalProject/post" method="post">
+	                    <div id="word">
+	                            <input
+	                                id="title-box" 
+	                                placeholder="Word Title"
+	                                name="title"
+	                            />
+	                    </div>
+	                    <div id="desc">
+	                        <textarea name="desc" placeholder="Description (Optional)"></textarea>
+	                    </div>
+	
+	                    <div id="word">
+	                        <input
+	                            id="title-box" 
+	                            placeholder="Language"
+	                            name="language"
+	                        />
+	                        
+	                        <div id="add-space"></div>
+	                        <div>
+	                            <button id="post-button" type="submit">Post</button>
+	                    	</div>
+	                    </div>
+	
+                    </form>        
+                </div>
+            </div>
+
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+            <div id="add-space"></div>
+
+        </div>
+
+
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("../Navbar/__forums__nav__.html");
+            });
+        </script>
+    </body>
+</html>

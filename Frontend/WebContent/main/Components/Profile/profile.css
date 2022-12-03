@@ -1,0 +1,114 @@
+body {
+    background-color: #3f4447;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#index-div {
+    padding-top: 11vh;
+    margin-left: 27vw;
+    margin-right: 10vw;
+}
+
+#side-profile {
+    background-color: rgb(153, 153, 153);    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: right;
+    overflow-x: hidden;
+    width: 26%;
+    height: 80%;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: radial-gradient(#000, #111), #000;
+    position: sticky;
+}
+
+.input-box {
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.input-box:focus {
+    border: 3px solid #37FF8B;
+}
+
+#main-profile h2 {
+    font-family: 'Days One', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#add-space {
+    padding-top: 70px;
+}
+
+#update-butt {
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #181a1b;
+    background-color: #181a1b;
+    color: #fff;
+}
+
+#update-butt:hover {
+    border: 3px solid #37FF8B;
+}
+
+#sign-out-butt {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    color: #181a1b;
+}
+
+#sign-out-butt:hover {
+    background-color: #37FF8B;
+    color: #181a1b;
+    border-color: #fff;
+}
+
+#h3-msg {
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#em-arrow2, #em-arrow {
+    visibility: hidden;
+}

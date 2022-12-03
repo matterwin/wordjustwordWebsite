@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Login.css">
+        <title>Login In</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;800&family=Days+One&display=swap');
+        </style>
+
+        <link rel="icon" href="../../icons/w.png">
+    </head>
+    <body id="body-login">
+        <center>
+            <div id="login-container">
+                <center>
+                    <div id="words-above-log">
+                        <h1 id="log-title">Log in for features</h1>
+                        <h3>or if it's your first time, <a href="./Signup.html" id="sign-word">signup</a></h3>
+                    </div>
+                </center>
+                <center>
+                    <div id="input-container">
+                        <form action="http://34.201.77.116/FinalProject/Logger" method="post">
+                            <div class="input-box">
+                                <input
+                                type="text"
+                                placeholder="Username" 
+                                id="username"
+                                name="username"          
+                                />
+                            </div>
+                            <div class="input-box">
+                                <input
+                                type="password"
+                                placeholder="Password"
+                                id="password" 
+                                name="password"      
+                                />
+                            </div>
+                            <button type="submit" id="log-button">Log In</button>
+                        </form>     
+                    </div>
+                </center>
+            </div>
+            <div id="buttons">
+                <a href="/"><button id="home-button">Home</button></a>
+                <a href="./Signup.html"><button id="sign-button">Sign up</button></a>
+            </div>
+        </center>
+    </body>
+</html>
+

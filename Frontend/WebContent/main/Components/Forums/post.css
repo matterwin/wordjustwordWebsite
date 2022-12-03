@@ -1,0 +1,201 @@
+body {
+    background-color: #3f4447;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#index-div {
+    padding-top: 90px;
+    margin-left: 27vw;
+    margin-right: 10vw;
+}
+
+#card {
+    background-color: rgb(153, 153, 153);
+    padding: 100px;
+    padding-top: 0px;
+    float: left;
+    width: 42%;
+    height: 80%;
+    border-radius: 5px;
+    padding-bottom: 0px;
+}
+
+#side-profile {
+    background-color: rgb(153, 153, 153);    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: right;
+    overflow-x: hidden;
+    width: 26%;
+    height: 80%;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: sticky;
+}
+
+#warning {
+    float: right;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+#inside-side {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    background-image: url('../../icons/tree.jpg');
+    background-size: cover;
+}
+
+#inside-side p {
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    background-color: red;
+}
+
+#word, #desc, #language {
+    float: left;
+    color: #262a2b;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#word {
+    font-family: 'Days One', sans-serif;
+    float: left;
+    margin-left: -60px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#desc {
+    margin-top: 20px;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: transparent;
+    outline: none;
+    margin-left: -60px;
+}
+
+#language p {
+    background-color: #37FF8B;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: -60px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: smaller;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 7px;
+    padding-left: 3px;
+}
+
+#card {
+    display: grid;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+#add-space {
+    padding-top: 70px;
+}
+
+#title-post {
+    color: #fff;
+    font-family: 'Days One', sans-serif;
+    border: 1px solid #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 610px;
+    padding-bottom: 5px;
+}
+
+#title-box {
+    padding: 0px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: transparent;
+    outline: none;
+    float: left;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    width: 485px;
+}
+
+#title-box input {
+    padding-right: 10px;
+}
+
+#desc textarea {
+    resize: none;
+    width: 480px;
+    height: 185px;
+}
+
+#card {
+    cursor: default
+}
+
+#title-box::placeholder {
+    color: rgb(97, 97, 97);
+}
+
+#desc textarea:focus {
+    border: transparent;
+    outline: transparent;
+}
+
+#desc textarea {
+    font-size: 17px;
+    font-family: 'Catamaran', sans-serif;
+    text-decoration: none;
+    outline: transparent;
+    border: transparent;
+}
+
+#post-button {
+	color: #262a2b;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+
+#post-button:hover {
+    border: 1px solid #37FF8B;
+    background-color: rgb(122, 122, 122);
+}

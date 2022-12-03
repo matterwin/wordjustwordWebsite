@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Signup.css">
+        <title>Sign Up</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;800&family=Days+One&display=swap');
+        </style>
+
+        <link rel="icon" href="../../icons/w.png">
+    </head>
+
+    <body id="body-login">
+        <center>
+            <div id="login-container">
+                <center>
+                    <div id="words-above-log">
+                        <h1 id="log-title">Sign up for features</h1>
+                        <h3>or if it's not your first time, <a href="./Login.html" id="sign-word">login</a></h3>
+                    </div>
+                </center>
+                <center>
+                    <div id="input-container">
+                        <form action="http://34.201.77.116/FinalProject/userSignUp" method="post">
+                            <div class="input-box">
+                                <input
+	                                type="text"
+	                                placeholder="Username" 
+	                                id="username"    
+	                                name="username"
+                                >
+                            </div>
+                            <div class="input-box">
+                                <input
+	                                type="email"
+	                                placeholder="Email" 
+	                                id="email"  
+	                                name="email"
+                                >
+                            </div>
+                            <div class="input-box">
+                                <input
+	                                type="password"
+	                                placeholder="Password" 
+	                                id="password"  
+	                                name="password"        
+                                >
+                            </div>
+                            <button type="submit" id="sign-butt">Sign Up</button>
+                        </form>
+                    </div>
+                </center>
+            </div>
+            <div id="buttons">
+                <a href="/"><button id="home-button">Home</button></a>
+                <a href="./Login.html"><button id="sign-button">Log in</button></a>
+            </div>
+        </center>
+    </body>
+</html>
+
+<script src="Signup.js"></script>

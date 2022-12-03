@@ -1,0 +1,147 @@
+#body-login {
+    background-color: #181a1b;
+}
+
+#login-container {
+    padding-top: 100px;
+}
+
+#log-title {
+    font-family: 'Days One', sans-serif;
+    color: #fff;
+    margin-bottom: -15px;
+}
+
+#words-above-log h3 {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+}
+
+
+#words-above-log a {
+    font-family: 'Catamaran', sans-serif;
+    color: #37FF8B;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#input-container {
+    background-color: #333;
+    width: 32vw;
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-style: solid;
+	border-width: 7px;
+	border-radius: 10px;
+	border-color: #37FF8B;
+    border-bottom-width: 0px;
+	border-top-width: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.input-box {
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.input-box input {
+    padding-right: 30px;
+    padding-left: 1vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 3px;
+    background-color: #181a1b;
+    color: #fff;
+}
+
+.input-box input:focus{
+    border-color:#37FF8B;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+#input-container button {
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 15px;
+    color: #333;
+    background-color: #37FF8B;
+    border: 2px solid rgb(48, 239, 128);
+}
+
+#input-container button:hover{
+    background-color: #31dc78;
+}
+
+#input-container p {
+    font-family: 'Catamaran', sans-serif;
+    padding-top: 50px;
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+
+#buttons {
+    cursor: pointer;
+}
+
+#home-button {
+    background-color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 16.32vw;
+    font-family: 'Catamaran', sans-serif;
+    cursor: pointer;
+    border-width: 7px;
+	border-radius: 10px;
+	border: 7px solid #37FF8B;
+    border-bottom-width: 0px;
+	border-top-width: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #333;
+    color: #fff;
+    width: 205px;
+}
+
+#sign-button {
+    background-color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 16.32vw;
+    font-family: 'Catamaran', sans-serif;
+    cursor: pointer;
+    border-width: 7px;
+	border-radius: 10px;
+    border: 7px solid #37FF8B;
+    border-bottom-width: 0px;
+	border-top-width: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #333;
+    color: #fff;
+    width: 205px;
+}
+
+#sign-button:hover, #home-button:hover {
+    background-color: #37FF8B;
+    color: #333;
+}
+
+#sign-word:hover {
+    color: #31dc78;
+}

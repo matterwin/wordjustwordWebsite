@@ -1,0 +1,284 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #3f4447;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#index-div {
+    padding-top: 11vh;
+    margin-left: 27vw;
+    margin-right: 10vw;
+}
+
+#add-space {
+    padding-top: 70px;
+}
+
+#intro-div h1 {
+    
+    font-size: 50px;
+    text-align: left;
+    padding-left: 70px;
+    margin-top: -30px;
+    font-family: 'Days One', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    
+}
+
+#intro-div h3 {
+    display: flex;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    word-break: break-word;
+    color: #37FF8B;
+    padding-left: 70px;
+    float:left;
+    word-wrap:break-word;
+    width:90vh;
+}
+
+#intro-div {
+    background-color: #181a1b;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    border-radius: 25px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+#sign-butt-home {
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #181a1b;
+    background-color: #181a1b;
+    color: #fff;
+}
+
+#free {
+    animation: bouncy 5s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.5em}
+    46%{top:0em}
+    48%{top:-0.2em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+
+#em-arrow {
+    visibility: hidden;
+   
+}
+
+#sign-butt-home:hover {
+    border: 3px solid #37FF8B;
+}
+
+#sign-butt-home:active {
+    background-color: #37FF8B;
+}
+
+#intro-paragraph {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+}
+
+#intro-p p {
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: -10px;
+}
+
+#fun-fact {
+    background-color: #181a1b;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#log-butt-home {
+    padding-left: 45px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+#log-butt-home:hover {
+    background-color: #37FF8B;
+    color: #181a1b;
+    border-color: #37FF8B;
+}
+
+#em-arrow2 {
+    visibility: hidden;
+}
+
+#space {
+    padding-top: 100px;
+}
+
+@-webkit-keyframes backgroundGradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes backgroundGradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes backgroundGradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#langs span {
+    background-color: #181a1b;
+    padding: 50px;
+    overflow: hidden;
+}
+
+#earth {
+    float: right;
+    padding-right: 100px;
+    z-index: -999px;
+}
+
+#country-box {
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+}
+
+#national-button {
+    margin-left: -5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #37FF8B;
+    color: #262a2b;
+    text-decoration: none;
+    border: 3px solid #37FF8B;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#national-button:hover {
+    box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.59);
+}
+
+#langs span {
+    font-family: 'Days One', sans-serif;
+    color: #fff;
+}
+
+#national-lang h1 {
+    font-family: 'Catamaran', sans-serif;
+    color: #fff;
+}
+
+.green {
+    color: #37FF8B;
+}
+
+#sign-h {
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    
+}
+
+#intro-p p {
+    color: rgb(193, 193, 193)
+}
+
+.drop-option {
+    color: #262a2b;
+}
+
+#note {
+    color: rgb(193, 193, 193);
+    font-family: 'Catamaran', sans-serif;
+}
+
+select {
+    width: 400px;
+    text-decoration: none;
+}

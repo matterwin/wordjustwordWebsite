@@ -1,0 +1,118 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  top: 0%;
+  height: 50px;
+  display: flex;
+  padding: 3px 36px;
+  align-items: center;
+  background-color: #262a2b;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  z-index: 9999;
+  left: 0px;
+  border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+#navbar ul * {
+  list-style: none;
+  display: inline;
+  margin: -1px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.nav--list {
+  float: right;
+  padding-left: 74vw;
+}
+
+.nav--list li a {
+  padding: 14px 15px;
+}
+
+.nav--list li a:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+#sign-up {
+    color: #262a2b !important;
+    background-color: #37FF8B;
+}
+
+#sign-up:hover {
+  background-color: #31dc78;
+  color: #262a2b;
+}
+
+#sidenav {
+  position: fixed;
+  padding-top: 46px;
+  z-index: 999px;
+  border: 1px solid rgb(153, 153, 153);
+}
+
+#sidenav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17.6%;
+    background-color: #262a2b;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+    margin-left: -10px;
+    padding-top: 25px;
+    border: 0.5px solid rgb(153, 153, 153);
+}
+
+#sidenav li {
+  color: #fff;
+  font-family: 'Catamaran', sans-serif;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 34px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#sidenav li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Catamaran', sans-serif;
+}
+
+#sidenav li:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+#title {
+  text-decoration: none;
+  font-family: 'Days One', sans-serif;
+  color: #37FF8B;
+  list-style-type: none;
+  background-color: transparent;
+}
+
+a, a:hover, a:focus, a:active, a:link { 
+  text-decoration: none; 
+}
+
+.current {
+	color: #df3e23;
+}
+
+#profile-pic {
+  width: 30px;
+  display: inline;
+  padding: 0px;
+}
